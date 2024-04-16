@@ -12,6 +12,7 @@ export default siteConfig({
   name: 'Blog - Ethan Lee',
   domain: 'https://crawling-friend-100.notion.site/Blog-Ethan-Lee-6179558ebe29414f934f74e8248ba61c',
   author: 'Ethan Lee',
+  description: 'Personal blog by Ethan Lee. I share my learning and daily life here.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -47,16 +48,12 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: 'About-ae37add36f704fd4b64cf4131aa9cb2e',
+    },
+  ]
 })
