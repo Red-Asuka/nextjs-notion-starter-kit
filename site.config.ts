@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Blog - Ethan Lee',
-  domain: 'https://crawling-friend-100.notion.site/Blog-Ethan-Lee-6179558ebe29414f934f74e8248ba61c',
+  domain: 'liyd.net',
   author: 'Ethan Lee',
   description: 'Personal blog by Ethan Lee. I share my learning and daily life here.',
 
